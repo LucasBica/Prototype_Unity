@@ -1,0 +1,20 @@
+using LB.Http.Models;
+using System;
+
+using LB.Http.Runtime.Strapi;
+
+namespace #NAMESPACE# {
+
+    public class #SERVICE# : #ISERVICE# {
+
+        private readonly #IREQUESTER# requester;
+
+        public #SERVICE#(#IREQUESTER# requester) {
+            this.requester = requester;
+        }
+
+        public void Get(Action<StrapiResponse<Data<#MODEL#>>> onSuccess, Action<HttpError> onError) {
+            requester.Get(onSuccess, onError);
+        }
+    }
+}

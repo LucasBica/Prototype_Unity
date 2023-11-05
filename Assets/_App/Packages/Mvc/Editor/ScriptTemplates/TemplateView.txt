@@ -1,0 +1,21 @@
+using System;
+
+using LB.Core.Runtime;
+using LB.MessageSystem.Runtime;
+using LB.Mvc.Runtime;
+
+namespace #NAMESPACE# {
+
+    public class #SCRIPTNAME# : UIViewUpdater<#INTERFACE#, #MODEL#> {
+        
+        public override void AttachIt(Action<IMessage> action) {
+            // Messenger.Attach(CallbackTypes.CallbackName, action);
+        }
+
+        public override void DetachIt(Action<IMessage> action) {
+            // Messenger.Detach(CallbackTypes.CallbackName, action);
+        }
+
+        protected override #INTERFACE# GetController() => DIContainer.Get<#INTERFACE#>();
+    }
+}

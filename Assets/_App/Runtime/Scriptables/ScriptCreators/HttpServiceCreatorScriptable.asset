@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc9ef344bf7b70241a98e08d0f9a7798, type: 3}
+  m_Name: HttpServiceCreatorScriptable
+  m_EditorClassIdentifier: 
+  textAssetRequester: {fileID: 4900000, guid: b7f48bc5c7a32b44da1f514b56d37953, type: 3}
+  textAssetIRequester: {fileID: 4900000, guid: 1334926585c84314ab69fdb66ed4520e, type: 3}
+  textAssetService: {fileID: 4900000, guid: 11d6dc1a142af7e43861efaaa40ee517, type: 3}
+  textAssetIService: {fileID: 4900000, guid: 260fe02e4879e6c4fae76aeb56f49536, type: 3}
+  textAssetModel: {fileID: 4900000, guid: 2e82fc71ba8314a42b31c436ef3eaf95, type: 3}
+  textAssetInstaller: {fileID: 4900000, guid: 6d50bf382ab4eb6408ae5728f329e261, type: 3}

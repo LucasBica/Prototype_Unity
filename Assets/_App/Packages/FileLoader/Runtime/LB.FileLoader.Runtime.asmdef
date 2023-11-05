@@ -1,0 +1,17 @@
+{
+    "name": "LB.FileLoader.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9d97b85d0408a3048b411c588c3fd843",
+        "GUID:aa2f15214b8537e4380c441fc972b61d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

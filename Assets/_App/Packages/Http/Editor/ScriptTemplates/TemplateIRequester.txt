@@ -1,0 +1,12 @@
+using LB.Http.Models;
+using System;
+
+using LB.Http.Runtime.Strapi;
+
+namespace #NAMESPACE# {
+
+    public interface #IREQUESTER# {
+
+        public void Get(Action<StrapiResponse<Data<#MODEL#>> onSuccess, Action<HttpError> onError);
+    }
+}

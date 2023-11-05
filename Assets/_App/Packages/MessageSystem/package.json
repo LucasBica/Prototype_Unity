@@ -1,0 +1,22 @@
+{
+    "name": "com.lb.messagesystem",
+    "version": "1.0.0",
+    "displayName": "Message System",
+    "description": "Unity C# classes to implement the observer pattern",
+    "unity": "2019.3",
+    "hideInEditor": false,
+    "license": "See LICENSE.md file",
+    "keywords": [
+        "MessageSystem",
+        "Message",
+        "System",
+        "Observer",
+        "Pattern",
+        "Channel"
+    ],
+    "author": {
+        "name": "lb",
+        "email": "lucasgabrielbica@gmail.com",
+        "url": "mailto:lucasgabrielbica@gmail.com"
+    }
+}

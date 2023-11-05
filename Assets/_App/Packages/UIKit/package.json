@@ -1,0 +1,22 @@
+{
+    "name": "com.lb.uikit",
+    "version": "1.1.4",
+    "displayName": "UIKit",
+    "description": "Unity C# classes to animate the UI using ScriptableObjects.",
+    "unity": "2019.3",
+    "hideInEditor": false,
+    "license": "See LICENSE.md file",
+    "keywords": [
+        "UI",
+        "Kit",
+        "UIKit",
+        "UI Kit",
+        "UIView",
+        "UIViewController"
+    ],
+    "author": {
+        "name": "LB",
+        "email": "lucasgabrielbica@gmail.com",
+        "url": "mailto:lucasgabrielbica@gmail.com"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "LB.MessageSystem.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "LB.Core.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

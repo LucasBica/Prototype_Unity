@@ -1,0 +1,24 @@
+{
+    "name": "LB.Topics..Runtime",
+    "rootNamespace": "",
+    "references": [
+        "LB.Core.Runtime",
+        "Unity.TextMeshPro",
+        "LB.UIKit.Runtime",
+        "LB.MessageSystem.Runtime",
+        "LB.Mvc.Runtime",
+        "SimpleScrollSnap",
+        "LB.Http.Runtime",
+        "LB.Authentification.Runtime",
+        "LB.FileLoader.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

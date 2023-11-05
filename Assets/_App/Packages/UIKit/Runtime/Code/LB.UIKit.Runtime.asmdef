@@ -1,0 +1,19 @@
+{
+    "name": "LB.UIKit.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "LB.TweenSystem.Runtime",
+        "LB.Core.Runtime",
+        "LB.MessageSystem.Runtime",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

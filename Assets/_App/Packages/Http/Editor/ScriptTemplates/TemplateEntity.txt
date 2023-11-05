@@ -1,0 +1,9 @@
+using LB.Http.Runtime.Strapi;
+
+namespace #NAMESPACE# {
+
+    public class #MODEL# : EntityData {
+
+        
+    }
+}

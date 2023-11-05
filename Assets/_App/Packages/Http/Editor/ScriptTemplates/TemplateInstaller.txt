@@ -1,0 +1,22 @@
+using LB.Core.Runtime;
+using LB.Http.Runtime;
+
+using UnityEngine;
+
+namespace #NAMESPACE# {
+
+    [CreateAssetMenu(fileName = nameof(#INSTALLER#), menuName = Consts.PATH_ASSET_INSTALLERS + nameof(#INSTALLER#))]
+    public class #INSTALLER# : ContainerInstaller {
+
+        public override void Initialize() {
+            IHttpService httpService = DIContainer.Get<IHttpService>();
+            IEnvironmentService environmentService = DIContainer.Get<IEnvironmentService>();
+            
+            #IREQUESTER# requester = new #REQUESTER#(environmentService.Variables.host, httpService);
+            DIContainer.Set(requester);
+
+            #ISERVICE# service = new #SERVICE#(requester);
+            DIContainer.Set(service);
+        }
+    }
+}

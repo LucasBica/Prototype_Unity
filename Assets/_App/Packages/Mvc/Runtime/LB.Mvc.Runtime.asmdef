@@ -1,0 +1,21 @@
+{
+    "name": "LB.Mvc.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "LB.Core.Runtime",
+        "Unity.TextMeshPro",
+        "LB.UIKit.Runtime",
+        "LB.MessageSystem.Runtime",
+        "LB.TweenSystem.Runtime",
+        "LB.Http.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

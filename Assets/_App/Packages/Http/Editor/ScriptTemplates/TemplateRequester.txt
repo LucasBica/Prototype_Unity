@@ -1,0 +1,26 @@
+using System;
+
+using LB.Http.Models;
+using LB.Http.Runtime;
+using LB.Http.Runtime.Strapi;
+
+namespace #NAMESPACE# {
+
+    public class #REQUESTER# : #IREQUESTER# {
+
+        private readonly string host;
+        private readonly IHttpService httpService;
+
+        public #REQUESTER#(string host, IHttpService httpService) {
+            this.host = host;
+            this.httpService = httpService;
+        }
+
+        public void Get(Action<StrapiResponse<Data<#MODEL#>>> onSuccess, Action<HttpError> onError) {
+            Request request = new RequestBuilder(HttpMethodTypes.Get, host + "#MODEL#?populate=*")
+                .Build();
+
+            httpService.SendRequest(request, onSuccess, onError);
+        }
+    }
+}

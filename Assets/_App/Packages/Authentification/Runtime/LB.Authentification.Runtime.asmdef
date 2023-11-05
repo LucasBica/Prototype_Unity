@@ -1,0 +1,21 @@
+{
+    "name": "LB.Authentification.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "LB.Core.Runtime",
+        "LB.Http.Runtime",
+        "Unity.TextMeshPro",
+        "LB.UIKit.Runtime",
+        "LB.MessageSystem.Runtime",
+        "LB.Mvc.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
